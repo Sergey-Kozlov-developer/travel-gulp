@@ -1,0 +1,26 @@
+.btn-login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 10px;
+
+	padding: 8px 20px;
+	height: 40px;
+
+	border-radius: 8px;
+	background: #fff;
+
+	color: #454545;
+	border: 1px solid #b7b7b7;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 150%; /* 24px */
+
+	transition: background-color 0.2s ease-in,
+		color 0.2s ease-in opacity 0.2s ease-in;
+}
+
+.button:hover {
+	opacity: 0.8;
+}
