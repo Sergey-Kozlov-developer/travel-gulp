@@ -19,12 +19,40 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%; /* 27px */
 }
 .hint-discover__rating {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	gap: 4px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%; /* 21px */
+
+	&::before {
+		content: "";
+
+		width: 17px;
+		height: 16px;
+
+		background-image: url("./../img/icons/star-small.svg");
+		background-repeat: no-repeat;
+	}
 }
 .hint-discover__price {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 150%; /* 24px */
+
+	i {
+		color: var(-accent);
+		font-style: normal;
+	}
 }
